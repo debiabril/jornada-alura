@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jornada</title>
     <link rel="stylesheet" href="./global.css">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -14,18 +14,26 @@
 </head>
 
 <body>
-    <div class="encabezado__container">
+    <header class="encabezado__container">
         <div class="encabezado">
-            <a href="" class="encabezado__logo">
-                <img class="encabezado__logo--icono" alt="" src="./img/logoprovisriablanca-1@2x.png" />
-            </a>
-            <div class="encabezado__navegacion">
-                <a class="encabezado__navegacion--elemento" href="">Blog</a>
-                <a class="encabezado__navegacion--elemento" href="">Paquetes de viaje</a>
-                <a class="encabezado__navegacion--elemento" href="">Contacto</a>
-            </div>
+                <a href="/" class="encabezado__logo" title="Página principal de Jornada">
+                    <img class="encabezado__logo--icono" alt="Logo de Jornada, empresa de viajes y turismo" src="./img/logoprovisriablanca-1@2x.png" />
+                </a>
+            <nav class="encabezado__navegacion">
+                <ul class="encabezado__navegacion--lista">
+                    <li class="encabezado__navegacion--elemento">
+                        <a href="/" aria-label="Enlace al blog de viajes">Blog</a>
+                    </li>
+                    <li class="encabezado__navegacion--elemento">
+                        <a  href="/" aria-label="Enlace a paquetes de viaje">Paquetes de viaje</a>
+                    </li>
+                    <li class="encabezado__navegacion--elemento">
+                        <a  href="/" aria-label="Enlace de contacto para consultas">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
 
     <div class="banner">
         <div class="banner__wrapper">
